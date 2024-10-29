@@ -3,7 +3,7 @@ Repo containing scripts and dataset for a machine learning tutorial. This read-m
 + Instructions of how to set up a Python development environment from scratch.
 + An outline of the contents of the repository.
 
-## Getting set up
+## Getting Started
 In order to complete access this code and complete these tutorials you will need to install several bits of software:
 + Git
 + Python
@@ -37,3 +37,5 @@ Once all of the above is installed open a command line (For example [PowerShell]
 4. Run the command ```conda activate mlenv```. This will activate the environment we have just created.
 
 5. To test the environment run the command ```jupyter lab```. This should open a browser window to the homepage of your new jupyterlab
+
+Well Done! You are ready to start building models!
