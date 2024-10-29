@@ -21,6 +21,8 @@ Python is available from [here](https://www.python.org/downloads/), version 3.13
 
 Anaconda is available from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). Both Anaconda and Miniconda are suitable for this tutorial.
 
+Installing on Windows can have some complications, i the conda command is unavailable when testing in step 5 you may need to add anaconda to your PATH. A tutorial is available [here](https://www.datacamp.com/tutorial/installing-anaconda-windows). You may also have to run the ```conda init``` command to ensure your shell is suitably set up.
+
 ### Setting up an environment
 Once all of the above is installed open a command line (For example [PowerShell](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) for Windows, or  [Terminal](https://support.apple.com/en-gb/guide/terminal/apdb66b5242-0d18-49fc-9c47-a2498b7c91d5/mac) on Mac.)
 
