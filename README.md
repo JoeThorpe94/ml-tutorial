@@ -3,23 +3,25 @@ Repo containing scripts and dataset for a machine learning tutorial. This read-m
 + Instructions of how to set up a Python development environment from scratch.
 + An outline of the contents of the repository.
 
-## Getting set up
+## Getting Started
 In order to complete access this code and complete these tutorials you will need to install several bits of software:
 + Git
 + Python
 + conda
 
-### Installing git
-In order to interact with this code you will need and installation of git. I would recommend also creating a github account github account, though this is optional.
+### Installing Git
+In order to interact with this code you will need and installation of Git. I would recommend also creating a GitHub account github account, though this is optional.
 
 Git can be installed from [here](https://git-scm.com/downloads).
 
-You can create a GitHub account [here](https://github.com/signup)
+You can create a GitHub account [here](https://github.com/signup).
 
 ### Installing Python and conda
 Python is available from [here](https://www.python.org/downloads/), version 3.13 is recommended.
 
-Anaconda is available from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+Anaconda is available from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). Both Anaconda and Miniconda are suitable for this tutorial.
+
+Installing on Windows can have some complications, i the conda command is unavailable when testing in step 5 you may need to add anaconda to your PATH. A tutorial is available [here](https://www.datacamp.com/tutorial/installing-anaconda-windows). You may also have to run the ```conda init``` command to ensure your shell is suitably set up.
 
 ### Setting up an environment
 Once all of the above is installed open a command line (For example [PowerShell](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file) for Windows, or  [Terminal](https://support.apple.com/en-gb/guide/terminal/apdb66b5242-0d18-49fc-9c47-a2498b7c91d5/mac) on Mac.)
@@ -37,3 +39,5 @@ Once all of the above is installed open a command line (For example [PowerShell]
 4. Run the command ```conda activate mlenv```. This will activate the environment we have just created.
 
 5. To test the environment run the command ```jupyter lab```. This should open a browser window to the homepage of your new jupyterlab
+
+Well Done! You are ready to start building models!
