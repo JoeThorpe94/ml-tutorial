@@ -19,7 +19,7 @@ You can create a GitHub account [here](https://github.com/signup).
 ### Installing Python and conda
 Python is available from [here](https://www.python.org/downloads/), version 3.13 is recommended.
 
-Anaconda is available from [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). Both Anaconda and Miniconda are suitable for this tutorial.
+Anaconda is available from [here](https://www.anaconda.com/download/). Guidance on installation is available [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html). Both Anaconda and Miniconda are suitable for this tutorial.
 
 Installing on Windows can have some complications, i the conda command is unavailable when testing in step 5 you may need to add anaconda to your PATH. A tutorial is available [here](https://www.datacamp.com/tutorial/installing-anaconda-windows). You may also have to run the ```conda init``` command to ensure your shell is suitably set up.
 
